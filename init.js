@@ -6,7 +6,7 @@
 define(['RongIMLib','jquery','mui','init','b'],function(RongIMLib,$,mui,init,b){
     function init(){
         RongIMClient = RongIMLib.RongIMClient;
-        RongIMClient.init("qd46yzrf4jd3f");
+        RongIMClient.init("xxxxx");
         //RongIMLib.RongIMVoice.init("xxxxx"); //具体的融云appid
         console.log('初始化成功');
         b.conn();
